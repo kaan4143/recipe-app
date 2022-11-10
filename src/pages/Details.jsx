@@ -13,7 +13,7 @@ const Details = () => {
           <p className="text-xl">Nutriens</p>
           <li>Calcium: {detail.digest[5].total.toFixed()}mg</li>
           <li>Carbs: {detail.digest[1].total.toFixed()}g</li>
-          <li>Cholesterol: {detail.digest[3].total.toFixed()}mg</li>
+          <li>Cholesterol: {detail.digest[3].total.toFixed()}mg.</li>
           <li>Energy: {detail.calories.toFixed()}kcal</li>
           <li>Fat: {detail.digest[0].total.toFixed()}</li>
           <li>Carbs: {detail.digest[1].total.toFixed()}</li>
